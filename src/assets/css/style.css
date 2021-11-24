@@ -1,0 +1,224 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: 'baloo_paaji_2regular';
+	font-size: 17px;
+	color: #000;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	/* font-family: "GT-Eesti", Arial, Helvetica, sans-serif; */
+	font-weight: 500;
+}
+
+.ancr{
+    
+	color: rgb(81, 56, 190);
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	/* font-family: "GT-Eesti", Arial; */
+	font-weight: 500;
+	color: #000;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+
+::placeholder {
+  color: #9B9B9B;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9B9B9B;
+}
+
+::-ms-input-placeholder {
+  color: #9B9B9B;
+}
+@font-face {
+    font-family: 'baloo_paaji_2regular';
+    src: url('../fonts/baloopaaji2-regular-webfont.woff2') format('woff2'),
+         url('../fonts/baloopaaji2-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+section.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+section.main-container .main-left{
+    width: 50%;
+    height: 100vh;
+    background: url(../images/bg.png) no-repeat;
+    background-size: cover;
+}
+section.main-container .right{
+    width: 50%;
+    height: 100vh;
+}
+
+.left-section{
+    
+}
+.left-section .logo-box{
+    width: 110px;
+    position: absolute;
+    top: 8%;
+    left: 4%;
+}
+.left-section .logo-box img{
+    display: block;
+    width: 100%;
+}
+
+.login{
+    padding: 80px 40px;
+}
+.login .img-box{
+    width: 20px;
+    margin-bottom: 5px;
+}
+.login .img-box img{
+    display: block;
+    width: 100%;
+}
+.login h3{
+    width: 70%;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.login p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(105, 103, 103);
+    width: 60%;
+    margin-bottom: 30px;
+}
+.login form{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px 15px 5px;
+    width: 65%;
+    border: 1px solid #000;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.login form .img-box{
+    width: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+.login form .img-box img{
+    display: block;
+    width: 100%;
+}
+.login form input{
+    font-size: 16px; 
+    margin-left: 15px;
+    width: 80%;
+}
+.login form input::-webkit-inner-spin-button,::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+
+.login span.ancr.forget{
+    text-align: right;
+    display: block;
+    width: 65%;
+    margin-bottom: 20px;
+}
+.login button{
+    width: 65%;
+    padding: 20px 0;
+    background: #2bc871;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+} 
+.login button.submit{
+    margin-top: 20px;
+}
+.login p.new{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 16px;
+}
+.login span.ancr.acc{
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+span.otpTimer{
+    color:rgb(105, 103, 103);
+}
+.login span.ancr.forget.lp{
+    text-align: center;
+}
+.login form .img-box.vis{
+    width: 25px;
+}
+
+.validation-content{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.validation-content:first-child{
+    margin-top: 40px;
+}
+.validation-content .tickbox{
+    width: 10px;
+}
+.validation-content .tickbox img{
+    display: block;
+    width: 100%;
+}
+.validation-content span{
+    margin-left: 10px;
+    color: #777;
+}
+
+
