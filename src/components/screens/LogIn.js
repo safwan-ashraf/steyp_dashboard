@@ -29,8 +29,6 @@ export default function LogIn() {
                     <span className="ancr acc">Create account</span>
                 </Link>
             </p> 
-            
-            
         </div>
     )
 }

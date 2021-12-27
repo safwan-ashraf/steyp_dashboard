@@ -21,7 +21,7 @@ function App() {
             <div className="main-left">
                 <Left />
             </div>
-            <div className="right">
+            <div className="right"> 
                 {/* <Switch> */}
                     <Route path = "/" exact component ={LogIn} />
                     <Route path = "/login" component ={LoginPassword} />

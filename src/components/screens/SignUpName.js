@@ -19,7 +19,7 @@ export default function SignUpName() {
                 <input type="password" placeholder="Enter your Name" ></input>   
             </form>
             <Link to="/supassword">
-                    <button className="submit">Continue</button>
+                <button className="submit">Continue</button>
             </Link>
         </div>
     )
